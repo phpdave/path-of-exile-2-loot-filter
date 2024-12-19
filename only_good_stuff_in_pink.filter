@@ -1,0 +1,1638 @@
+#########################
+#########################
+## Normal  Ignores new
+#########################
+#########################
+
+
+Show
+    BaseType "Barya" "Ultimatum"
+    SetTextColor 255 207 255
+    SetBorderColor 255 207 255
+    SetBackgroundColor 65 20 80
+    PlayAlertSound 2 300
+    PlayEffect Grey
+    MinimapIcon 1 Grey Square
+    SetFontSize 40
+
+Show # Gold hide for tempoary 
+    BaseType == "Gold"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+#--------------------------
+# Waystones
+#--------------------------
+
+Show
+    WaystoneTier < 10
+    AreaLevel > 77
+    BaseType "Waystone"
+    Rarity <= Rare
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetFontSize 35
+
+Show
+    WaystoneTier < 5
+    AreaLevel > 74
+    BaseType "Waystone"
+    Rarity <= Rare
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetFontSize 35
+
+Show
+    BaseType "Waystone"
+    Rarity <= Rare
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    PlayAlertSound 4 300
+    PlayEffect White
+    MinimapIcon 1 White Square
+    SetFontSize 40
+
+
+#Show # Gems hide for tempoary # "Uncut Spirit Gem"
+ #   BaseType == "Uncut Skill Gem" "Uncut Support Gem" 
+  #  SetTextColor 200 200 200        # Hot pink text
+   # SetBorderColor 0 0 0      # black border
+    #SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+#Ignorie CHARMS!!i! for a second
+Show
+    Rarity Normal
+    BaseType  "Primed Quiver" "Fine Belt" "Sapphire Charm" "Lapis Amulet" "Ruby Charm" "Amethyst Ring" "Bloodstone Amulet" "Staunching Charm" "Thawing Charm" "Topaz Charm" "Silver Charm" "Azure Amulet" "Emerald" "Amber Amulet"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # Hot pink bordSSSSSSSSSSSSSSSSSSSSSSSSer
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Magic
+    BaseType "Lunar Amulet" "Stone Charm" "Ruby Charm" "Sapphire Charm" "Topaz Charm" "Silver Charm" "Azure Amulet" "Emerald" "Amber Amulet"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # Hot pink bordSSSSSSSSSSSSSSSSSSSSSSSSer
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Magic
+    BaseType "Advanced Leaden Greathammer" "Advanced Forge Maul" "Gelid Staff" "Cultist Greathammer" "Penetrating quiver" "Forlorn Crossbow"  "volant quiver" "Transcendent Life Flask" "Transcendent Mana Flask" "Ultimate Life Flask" "Ultimate Mana Flask"  "Serrated Quiver" "Goldcast Cuffs" "Trimmed Greaves" "Cultist Bow" "Gold Circlet" "Azure Amulet" "Altar Robe" "Topaz Charm" "Mail Belt" "Steeltoe Boots" "Gargantuan Life Flask" "Ornate Belt" "Silk Slippers" "Slicing Quarterstaff" "Toxic Quiver" "Composite Bow" "Studded Vest" "Crumbling Maul" "Gargantuan Mana Flask" "Construct Crossbow" "Viper Cap" "Altar Robe" "Scalper's Jacket" "Bombard Crossbow" "Zealot Bow"   "Colossal Life Flask" "Colossal Mana Flask" "Full Plate"  "Stone Tower Shield" "Brigand Mace" "Scout's vest" "Doubled Gauntlets" "Spined Bracers" "Chiseled Targe" "Stone Greaves" "Sectarian Crest Shield" "Shielded Helm" "Hunting Shoes" "Barrier Quarterstaff" "Feathered Tiara" "Tribal Mask" "Serpentscale Coat" "Plumed Focus" "Anchorite Garb" "Tribal Mask" "Pyrophyte Staff" "Feathered Sandals" "Construct Hammer" "Omen Crest Shield" "Lizardscale Boots"  "Warrior Greathelm" "Stoic Sceptre" "Scale Mail" "Sacrificial Mantle" "Pelt Leggings"  "Voodoo Focus" "Heraldric Tower Shield" "Moulded Mitts"  "Slicing Quarterstaff" "Feathered Targe" "Steelpoint Quarterstaff" "Intricate gloves" "Plated Mace" "Heavy Crown" "Vaal Cuirass" "Construct Hammer" "Pyrophyte Staff" "Twig Circlet" "Hardwood Targe" "Fire Quiver" "Rusted Cuirass"  "Wrapped Quarterstaff" "Padded Leggings" "Gauze Wraps" "Woven Focus" "Layered Gauntlets" "Bound Bracers" "Quilted Vest" "Crescent Quarterstaff" "Votive Raiment" "Heavy Crown" "Hunter Hood" "Blunt Quiver" "Anchorite Garb" "Doubled Gauntlets" "Voodoo Focus" "Explorer Armour" "Spiral Wraps" "Ironclad Vestments" "Stacked Sabatons"  "Elite Greathelm" "Keth Raiment" "Plate Belt" "Jingling Crest Shield" "Steel Plate"  "Shaman Mantle"  "Rampart Tower Shield" "Advanced Temple Maul" "Sectioned Bracers" "Jewelled Gloves" "Shrouded Vest" "Martyr Crown" "Studded Vest"  "Wayfarer Jacket" "Ashen Staff" "Trimmed Greaves" "Swathed Cap" "Silk Slippers" "Dualstring Bow" "Steelpoint Quarterstaff" "Feathered Robe" "Veiled Mask" "Two-point quiver" "Steeltoe Boots" "Lattice Sandals" "Stitched Gloves" "Twig Focus" "Stocky Mitts" "Frayed Shoes" "Iron Crown" "Leather Vest" "Pelt Mantle" "Waxed Jacket" "Advanced Oak Greathammer" "Tense Crossbow" "Ringmail Gauntlets" "Sombre Gloves" "Brimmed Helm" "Engraved Focus" "Rough Greaves" "Painted Tower Shield" "Smithing Hammer" "Threaded Shoes" "Shortbow" "Splintered Tower Shield" "Chain Mail" "Quilted Vest" "Shrouded Vest" "Horned Crown" "Firm Bracers" "Siphoning Wand" "Riveted Mitts" "Wrapped Greathelm" "Mail Sabatons" "Shabby Hood" "Rusted Greathelm" "Emblem Crest Shield" "Fur Plate" "Wide Belt" "Broadhead Quiver" "Rope Cuffs" "Rawhide Boots"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+    
+#Show
+ #   Rarity Normal
+  #  BaseType "Desert Rune" 
+   # SetTextColor 200 200 200        # Hot pink text
+    #SetBorderColor 0 0 0      # black border 
+    #SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Advanced Leaden Greathammer" "Gelid Staff" "Cultist Greathammer" "Advanced Forge Maul" "Penetrating quiver" "volant quiver" "Transcendent Life Flask" "Transcendent Mana Flask"  "Forlorn Crossbow" "Ultimate Life Flask" "Ultimate Mana Flask" "Crimson Amulet" "Lazuli Ring" "Emerald Ring" "Azure Amulet" "Serrated Quiver" "Double Belt" "Goldcast Cuffs"  "Stone Charm" "Iron Ring" "Gold Circlet" "Topaz Ring" "Mail Belt" "Steeltoe Boots"  "Gargantuan Life Flask" "Ornate Belt" "Silk Slippers" "Slicing Quarterstaff" "Gargantuan Life Flask" "Toxic Quiver" "Composite Bow" "Studded Vest" "Crumbling Maul" "Gargantuan Mana Flask" "Construct Crossbow"  "Viper Cap" "Altar Robe"  "Scalper's Jacket" "Bombard Crossbow" "Zealot Bow"  "Colossal Life Flask" "Colossal Mana Flask""Full Plate"  "Stone Tower Shield" "Brigand Mace"  "Scout's vest" "Doubled Gauntlets" "Spined Bracers" "Chiseled Targe" "Stone Greaves" "Sectarian Crest Shield"  "Shielded Helm"  "Hunting Shoes" "Barrier Quarterstaff" "Feathered Tiara" "Tribal Mask" "Serpentscale Coat" "Plumed Focus" "Anchorite Garb" "Tribal Mask" "Pyrophyte Staff" "Feathered Sandals" "Construct Hammer" "Omen Crest Shield" "Lizardscale Boots"  "Warrior Greathelm" "Stoic Sceptre" "Scale Mail" "Sacrificial Mantle" "Pelt Leggings"  "Voodoo Focus" "Heraldric Tower Shield" "Moulded Mitts" "Slicing Quarterstaff" "Feathered Targe" "Steelpoint Quarterstaff" "Intricate gloves" "Plated Mace" "Heavy Crown" "Vaal Cuirass" "Twig Circlet" "Hardwood Targe" "Fire Quiver" "Rusted Cuirass" "Wrapped Quarterstaff" "Padded Leggings" "Gauze Wraps" "Woven Focus" "Layered Gauntlets" "Bound Bracers" "Quilted Vest" "Crescent Quarterstaff" "Votive Raiment" "Heavy Crown" "Hunter Hood" "Blunt Quiver" "Explorer Armour" "Spiral Wraps" "Ironclad Vestments" "Stacked Sabatons" "Cultist Bow" "Elite Greathelm" "Keth Raiment" "Plate Belt" "Jingling Crest Shield" "Steel Plate" "Steel Plate"  "Shaman Mantle"  "Rampart Tower Shield" "Advanced Temple Maul" "Sectioned Bracers" "Jewelled Gloves" "Shrouded Vest" "Martyr Crown" "Studded Vest" "Wayfarer Jacket" "Ashen Staff" "Ashen Staff" "Trimmed Greaves" "Swathed Cap" "Silk Slippers" "Silk Slippers" "Dualstring Bow" "Steelpoint Quarterstaff" "Steelpoint Quarterstaff" "Feathered Robe" "Veiled Mask" "Veiled Mask" "Two-point quiver" "Steeltoe Boots" "Steeltoe Boots" "Lattice Sandals" "Stitched Gloves" "Twig Focus" "Stocky Mitts" "Frayed Shoes" "Iron Crown" "Leather Vest" "Pelt Mantle" "Advanced Oak Greathammer" "Tense Crossbow" "Ringmail Gauntlets" "Sombre Gloves" "Brimmed Helm" "Engraved Focus" "Rough Greaves" "Painted Tower Shield" "Smithing Hammer" "Threaded Shoes" "Shortbow" "Splintered Tower Shield" "Chain Mail" "Quilted Vest" "Shrouded Vest" "Horned Crown" "Firm Bracers" "Siphoning Wand" "Riveted Mitts" "Wrapped Greathelm" "Mail Sabatons" "Shabby Hood" "Rusted Greathelm" "Emblem Crest Shield" "Fur Plate" "Wide Belt" "Broadhead Quiver"  "Rope Cuffs" "Rawhide Boots"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Rare
+    BaseType "Plated Mace" "Secured Leggings" "Stone Greaves" "Barrier Quarterstaff" "Rusted Greathelm" "Two-point Quiver" "Antler Focus" "Emblem Crest Shield" "" "Cowled Helm" "Explorer Armour" "Pathfinder Coat" "Advanced Temple Maul" "Smithing Hammer" "Gothic Quarterstaff" "Felt Cap" "Shielded Helm" "Stitched Gloves" "Dyad Crossbow" "Attuned Wand" "Maraketh Cuirass" "Stone Greaves" "Intricate Gloves" "Embossed Boots" "Barricade Tower Shield" "Rope Cuffs" "Stacked Sabatons" "Threaded Shoes" "Omen Sceptre" "Chiming Staff" "Cultist Greathammer" "Feathered Tiara" "Gold Circlet" "Sombre Gloves" "Warrior Greathelm" "Raider Plate" "Voltaic Staff" "Shrine Sceptre" "Mail Sabatons" "Long Belt" "Crescent Targe" "Spired Greathelm" "Embossed Boots" "Spiked Club" "Pyrophyte Staff" "Keth Raiment" "Rawhide Boots" "Shaman Mantle" "Hunter Hood" "Blunt Quiver" "Visored Helm" "Spiral Wraps" "Varnished Crossbow" "Full Plate" "Scout's Vest" "Linen Belt" "Vaal Cuirass" "Spined Bracers" "Crystal Focus" "Doubled Gauntlets" "Stocky Mitts" "Fire Quiver" "Feathered Targe" "Rhoahide Coat" "Sectioned Bracers" "Chain Tiara" "Martyr Crown" "Sacral Quiver" "Hunting Shoes" "Brigand Mace" "Mail Belt" "Construct Hammer" "Steeltoe Boots"  "Attuned Wand" "Voodoo Focus" "Ironclad Vestments" "Ornate Belt" "Swathed Cap" "Heraldric Tower Shield" "Rattling Sceptre" "Steelpoint Quarterstaff" "Tribal Mask" "Layered Gauntlets" "Ashen Staff" "Construct crossBow" "Moulded Mitts" "Bolstered Mitts" "Warpick" "Jingling Crest Shield" "Broadhead Quiver" "Silk Slippers" "Steel Plate" "Zealot Bow" "Votive Raiment" "Dualstring Bow" "Stone Tower Shield" "Stoic Sceptre" "Marabout Garb" "Scale Mail" "Sectarian Crest Shield" "Barrier Quarterstaff" "Serpentscale Coat" "Elite Greathelm" "Effigial Tower Shield" "Studded Targe" "Viper Cap" "Pelt Leggings" "Goldcast Cuffs" "Cultist Crown" "Horned Crown" "Siphoning Wand" "Slicing Quarterstaff" "Crumbling Maul" "Omen Crest Shield" "Gold Circlet" "Toxic Quiver" "Pelage Targe" "Cloaked Mail" "Laced Boots" "Lizardscale Boots"  "Anchorite Garb" "Sacrificial Mantle" "Cultist Bow" "Composite Bow" "Studded Vest" "Jewelled Gloves" "Heavy Crown" "Feathered Sandals" "Altar Robe" "Wayfarer Jacket" "Scalper's Jacket" "Wide Belt" "Withered Wand" "Plumed Focus" "Volatile Wand" "Bone Wand" "Bombard Crossbow"
+    SetTextColor 0 0 0        # Gold text
+    SetBorderColor 255 215 0      # Gold border
+    SetBackgroundColor 255 215 0 255  # Gold background (fully opaque)
+#Show # KEep so we can break them down
+ #   Rarity Unique
+ #   BaseType "Volt" "Cultist Crown"
+  #  SetTextColor 0 0 0        # Gold text
+  #  SetBorderColor 255 215 0      # Gold border
+   # SetBackgroundColor 255 215 0 255  # Gold background (fully opaque)
+    
+Show
+    Rarity Normal
+    BaseType "Colossal Mana flask" "Colossal Life flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Medium life flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)r2
+Show
+    Rarity Normal
+    BaseType "Smithing Hammer"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Stitched Gloves"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Twig Focus"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Wicker Tiara"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Pathfinder Coat"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Cowled Helm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Lattice Sandals"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Waxed Jacket"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+
+Show
+    Rarity Magic
+    BaseType "Medium life flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+
+
+Show
+    Rarity Magic
+    BaseType "Grand Mana Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+    
+#########################
+#########################
+## Magic  Ignores new - just want to get rares during this time may  want to disable later
+#########################
+#########################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#########################
+#########################
+## Normal  Ignores
+#########################
+#########################
+
+Show
+    Rarity Normal
+    BaseType "Lesser Mana Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Spired Greathelm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Alloy Crossbow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Rawhide Belt"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Sturdy Crossbow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Crystal Focus"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Iron Cuirass"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Vagabond Armour"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Blazon Crest Shield"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Beaded Circlet"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Crackling Quarterstaff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Bronze Greaves"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Face Mask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Warden Bow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Fire Quiver"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Torn Gloves"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Tattered Robe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Long Belt"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Braced Tower Shield"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Straw Sandals"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Hermit Garb"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Composite Bow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Long Quarterstaff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Gothic Quarterstaff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Embossed Boots"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Normal
+    BaseType "Layered Gauntlets"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Maraketh Cuirass"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Rattling Sceptre"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Studded Targe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Silk Robe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Suede Bracers"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Bound Bracers"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Mail Vestments"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Makeshift Crossbow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Recurve Bow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Laced Boots"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Wrapped Sandals"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Stoic Sceptre"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Riveted Mitts"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Felt Cap"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Lace Hood"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Aged Cuffs"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Lesser Life Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Effigial Tower Shield"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Withered Wand"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Guarded Helm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Barricade Tower Shield"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Tonal Focus"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Pelage Targe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Omen Sceptre"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Raider Plate"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Rogue Armour"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Pilgrim Vestments"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Feathered Robe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Medium Mana Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Wooden Club"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Crude Bow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Hewn Mask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Volatile Wand"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Tempered Mitts"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Grand Life Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Dyad Crossbow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Spiked Club"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Visored Helm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Greater Mana Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Cloaked Mail"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Pyrophyte Staff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Voltaic Staff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Sacral Quiver"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Linen Belt"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Giant Life Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Greater Life Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Giant Mana Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Grand Mana Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Scroll of Wisdom"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Wrapped Greathelm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Antler Focus"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Hooded Mask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Normal
+    BaseType "Ashen Staff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Bone Raiment"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Studded Greatclub"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Iron Greaves"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Warpick"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Pathfinder Coat"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Attuned Wand"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Marabout Garb"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Normal
+    BaseType "Hexer's Robe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Normal
+    BaseType "Linen Wraps"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Cultist Crown"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Sigil Crest Shield"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Rhoahide Coat"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Slim Mace"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Braced Sabatons"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Chain Tiara"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Shrine Sceptre"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Cowled Helm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Normal
+    BaseType "Studded Vest"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Varnished Crossbow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Soldier Greathelm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Plated Mace"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Swathed Cap"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Chiming Staff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Secured Leggings"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Bone Wand"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Crescent Quarterstaff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Crescent Targe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Normal
+    BaseType "Bolstered Mitts"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+#########################
+#########################
+## Magic Ignores
+#########################
+#########################
+
+Show
+    Rarity Magic
+    BaseType "lesser mana flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Medium mana flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+# Show
+#    Rarity Magic
+#    BaseType "Giant mana flask"
+#    SetTextColor 200 200 200        # Hot pink text
+#    SetBorderColor 0 0 0      # black border
+#    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+#Show
+#    Rarity Magic
+#    BaseType "Giant life flask"
+#    SetTextColor 200 200 200        # Hot pink text
+##    SetBorderColor 0 0 0      # black border
+#    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Magic
+    BaseType "Greater mana flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Greater life flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+
+
+
+
+
+
+
+
+####################################################
+############START Normals to Magic
+####################################################
+
+
+#########################
+#########################
+## Magic  Ignores
+#########################
+#########################
+
+Show
+    Rarity Magic
+    BaseType "Lesser Mana Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Spired Greathelm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Alloy Crossbow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Rawhide Belt"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Sturdy Crossbow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Crystal Focus"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Iron Cuirass"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Vagabond Armour"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Blazon Crest Shield"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Beaded Circlet"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Crackling Quarterstaff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Bronze Greaves"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Face Mask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Warden Bow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Fire Quiver"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Torn Gloves"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Tattered Robe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Long Belt"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Braced Tower Shield"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Straw Sandals"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Hermit Garb"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Composite Bow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Long Quarterstaff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Gothic Quarterstaff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Embossed Boots"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Magic
+    BaseType "Layered Gauntlets"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Maraketh Cuirass"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Rattling Sceptre"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Studded Targe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Silk Robe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Suede Bracers"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Bound Bracers"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Mail Vestments"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Makeshift Crossbow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Recurve Bow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Laced Boots"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Wrapped Sandals"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Stoic Sceptre"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Riveted Mitts"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Felt Cap"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Lace Hood"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Aged Cuffs"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Lesser Life Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Effigial Tower Shield"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Withered Wand"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Guarded Helm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Barricade Tower Shield"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Tonal Focus"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Pelage Targe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Omen Sceptre"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Raider Plate"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Rogue Armour"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Pilgrim Vestments"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Feathered Robe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Medium Mana Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Wooden Club"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Crude Bow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Hewn Mask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Volatile Wand"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Tempered Mitts"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Grand Life Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Dyad Crossbow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Spiked Club"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Visored Helm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Greater Mana Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Cloaked Mail"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Pyrophyte Staff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Voltaic Staff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Sacral Quiver"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Linen Belt"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Giant Life Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Greater Life Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Giant Mana Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Grand Mana Flask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Scroll of Wisdom"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Wrapped Greathelm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Antler Focus"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Hooded Mask"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Magic
+    BaseType "Ashen Staff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Bone Raiment"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Studded Greatclub"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Iron Greaves"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Warpick"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Pathfinder Coat"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Attuned Wand"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Marabout Garb"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Magic
+    BaseType "Hexer's Robe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Magic
+    BaseType "Linen Wraps"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Cultist Crown"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Sigil Crest Shield"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Rhoahide Coat"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Slim Mace"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Braced Sabatons"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Chain Tiara"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Shrine Sceptre"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Cowled Helm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+Show
+    Rarity Magic
+    BaseType "Studded Vest"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Varnished Crossbow"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Soldier Greathelm"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Plated Mace"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Swathed Cap"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Chiming Staff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Secured Leggings"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Bone Wand"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Crescent Quarterstaff"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Crescent Targe"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+Show
+    Rarity Magic
+    BaseType "Bolstered Mitts" "Wicker Tiara"
+    SetTextColor 200 200 200        # Hot pink text
+    SetBorderColor 0 0 0      # black border
+    SetBackgroundColor 0 0 0 0  # black background (fully opaque)
+
+####################################################
+############END of Normals to Magic
+#####################################################
+
+
+
+
+
+
+
+
+    
+#########################
+#########################
+## Make it all pink
+#########################
+#########################
+
+Show
+    # CONDITIONS
+    # Class "Currency"
+    # BaseType "Scroll of Wisdom"
+    # Rarity Normal
+    # ItemLevel >= 1
+    # DropLevel <= 100
+    # Quality >= 0
+    # GemLevel <= 100
+    # StackSize >= 1
+    # Height <= 2
+    # Width <= 2
+    
+    # Boolean conditions for item properties:
+    # Identified True
+    # Corrupted False
+    # Mirrored False
+    # SynthesisedItem False
+    # FracturedItem False
+    # ElderItem False
+    # ShaperItem False
+    # AlternateQuality False
+    # Replica False
+    # Scourged False
+
+    # INFLUENCES (Set them all to false to ensure it won't fail)
+
+    # STYLING
+    SetFontSize 45                # Maximum allowed font size
+    SetTextColor 0 0 0        # Hot pink text
+    SetBorderColor 255 0 255      # Hot pink border
+    SetBackgroundColor 255 0 255 255  # Hot pink background (fully opaque)
+
+    PlayAlertSound 3 300           # Play a loud alert sound
+    PlayAlertSoundPositional 1 300 # Positional sound (for demonstration)
+    PlayEffect Pink Temp           # Pink effect, temporary
+    MinimapIcon 2 Pink Star        # Large pink star on the minimap
+    CustomAlertSound "C:\\Users\\me\\Documents\\My Games\\Path of Exile 2\\halo_nice.mp3"  # Custom sound file (example path)
+
+
